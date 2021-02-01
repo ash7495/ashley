@@ -1,0 +1,7 @@
+modulos=['El Computador','Internet','Power Point','Excel','Word','Herramientas Colaborativas']
+
+print('El curso HCD está formado por los siguientes 6 módulos:')
+
+for modulo in range( len(modulos)):
+
+	print(f'\t{modulo+1}. modulos[modulo]')
